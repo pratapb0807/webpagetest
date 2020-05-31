@@ -3,3 +3,4 @@ build:
     web: Dockerfile
 run:
   web: /usr/bin/supervisord
+  web: vendor/bin/heroku-php-apache2 /var/www/html/
